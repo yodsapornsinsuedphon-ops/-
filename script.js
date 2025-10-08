@@ -52,11 +52,11 @@ function shrinkNoButton() {
 function generateMessage(noCount) {
   const messages = [
     "No 😔",
-    "Are you sure? 🥺",
-    "Pookie please 🥹",
-    "Don't do this to me 😭",
-    "You're breaking my heart 💔",
-    "I'm gonna cry... 😭💔",
+    "เห้ยไม่จริงหรอออ 🥺",
+    "น้าาาาาา 🥹",
+    "ง้อๆนะคัฟเธอ นะๆๆๆๆ 😭",
+    "แงๆๆๆๆๆๆ 💔",
+    "จะร้องไห้แล้วนะ... 😭💔",
   ];
   return messages[Math.min(noCount, messages.length - 1)];
 }
