@@ -22,7 +22,7 @@ let noButtonSize = 1;
 let yesButtonSize = 1;
 
 yesBtn.addEventListener("click", () => {
-  title.innerHTML = "Yay! I Love You!! 💗";
+  title.innerHTML = "หึยย น่ารักที่สุ๊ดดดเลยครับเธอ!! 💗";
   btnContainer.classList.add("hidden");
   changeImage("yes");
 });
@@ -51,12 +51,12 @@ function shrinkNoButton() {
 
 function generateMessage(noCount) {
   const messages = [
-    "No 😔",
-    "Are you sure? 🥺",
-    "Pookie please 🥹",
-    "Don't do this to me 😭",
-    "You're breaking my heart 💔",
-    "I'm gonna cry... 😭💔",
+    "ไม่ 😔",
+    "แงง จริงอะะะ? 🥺",
+    "นะะๆๆๆๆ 🥹",
+    "อย่าทําแบบนี้เลย😭",
+    "ง้อๆๆน้าาาา 💔",
+    "ม่ายย จะร้องไห้แล้วนะะ... 😭💔",
   ];
   return messages[Math.min(noCount, messages.length - 1)];
 }
