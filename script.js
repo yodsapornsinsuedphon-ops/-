@@ -22,7 +22,7 @@ let noButtonSize = 1;
 let yesButtonSize = 1;
 
 yesBtn.addEventListener("click", () => {
-  title.innerHTML = "Yay! I Love You!! 💗";
+  title.innerHTML = "หึย น่ารักที่สุ๊ดเลยครับเธอ 💗";
   btnContainer.classList.add("hidden");
   changeImage("yes");
 });
@@ -51,7 +51,7 @@ function shrinkNoButton() {
 
 function generateMessage(noCount) {
   const messages = [
-    "No 😔",
+    "ไม่ 😔",
     "เห้ยไม่จริงหรอออ 🥺",
     "น้าาาาาา 🥹",
     "ง้อๆนะคัฟเธอ นะๆๆๆๆ 😭",
@@ -63,7 +63,7 @@ function generateMessage(noCount) {
 
 function changeImage(image) {
   img.src =
-    image === "yes"
+    image === "ช่ายย"
       ? "https://media.tenor.com/ACi1vdjNbpIAAAAi/%EC%9C%A0%ED%83%80-%ED%86%A4%ED%86%A4%ED%94%84%EB%A0%8C%EC%A6%88.gif"
       : tontonGifs[image];
 }
